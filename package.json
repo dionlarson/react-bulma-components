@@ -1,6 +1,6 @@
 {
-  "name": "react-bulma-components",
-  "version": "4.1.0",
+  "name": "@dionlarson/react-bulma-components",
+  "version": "4.2.0",
   "description": "React components for Bulma framework",
   "main": "./cjs/index.js",
   "types": "./src/index.d.ts",
@@ -39,7 +39,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/couds/react-bulma-components.git"
+    "url": "git+https://github.com/dionlarson/react-bulma-components.git"
   },
   "keywords": [
     "react",
@@ -51,12 +51,12 @@
     "layout",
     "responsive"
   ],
-  "author": "John Benavides",
+  "author": "Dion Larson",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/couds/react-bulma-components/issues"
+    "url": "https://github.com/dionlarson/react-bulma-components/issues"
   },
-  "homepage": "https://react-bulma.dev",
+  "homepage": "https://github.com/dionlarson/react-bulma-components",
   "dependencies": {
     "classnames": "2.3.1"
   },
