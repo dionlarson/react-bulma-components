@@ -28,7 +28,7 @@
     "deploy-storybook": "storybook-to-ghpages",
     "babel": "babel ./src --source-maps --ignore \"**/__test__,**/*.story.js\"",
     "build-commonjs": "TARGET=commonjs npm run babel -- --out-dir ./cjs ",
-    "build-esm": "npm run babel -- --out-dir ./esm",
+    "build-esm": "npm run babel -- --out-dir ./esm && npx copyfiles -u 1 src/**/*.d.ts",
     "build-all": "npm run build-commonjs && npm run build-esm",
     "upgrade-dependencies": "npx npm-check --update"
   },
@@ -99,6 +99,7 @@
     "babel-runtime": "6.26.0",
     "bulma": "0.9.4",
     "chai": "4.3.4",
+    "copyfiles": "^2.4.1",
     "coveralls": "3.1.0",
     "emotion": "11.0.0",
     "emotion-theming": "11.0.0",

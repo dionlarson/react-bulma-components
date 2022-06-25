@@ -30,3 +30,4 @@ export { default as Table } from './components/table';
 export { default as Tabs } from './components/tabs';
 export { default as Tag } from './components/tag';
 export { default as Tile } from './components/tile';
+export * from './components';
